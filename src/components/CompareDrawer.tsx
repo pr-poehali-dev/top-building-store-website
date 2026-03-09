@@ -1,5 +1,5 @@
 import Icon from "@/components/ui/icon";
-import type { Product } from "@/components/ProductCard";
+import type { Product } from "@/data/products";
 
 interface CompareDrawerProps {
   open: boolean;

@@ -1,5 +1,5 @@
 import Icon from "@/components/ui/icon";
-import { HERO_IMAGE, TOOLS_IMAGE, TILES_IMAGE } from "@/data/products";
+import { HERO_IMAGE, CAT_TOOLS, CAT_PLUMBING } from "@/data/products";
 
 export default function AboutPage() {
   return (
@@ -77,10 +77,10 @@ export default function AboutPage() {
           <h2 className="font-display text-3xl font-bold uppercase text-[#141414] mb-8">Команда</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { name: "Алексей Петров", role: "Генеральный директор", img: TOOLS_IMAGE },
-              { name: "Мария Козлова", role: "Коммерческий директор", img: TILES_IMAGE },
+              { name: "Алексей Петров", role: "Генеральный директор", img: CAT_TOOLS },
+              { name: "Мария Козлова", role: "Коммерческий директор", img: CAT_PLUMBING },
               { name: "Дмитрий Иванов", role: "Технический директор", img: HERO_IMAGE },
-              { name: "Анна Смирнова", role: "Директор по логистике", img: TOOLS_IMAGE },
+              { name: "Анна Смирнова", role: "Директор по логистике", img: CAT_TOOLS },
             ].map((person) => (
               <div key={person.name} className="group">
                 <div className="aspect-square overflow-hidden mb-3">

@@ -1,7 +1,7 @@
 import Icon from "@/components/ui/icon";
 import ProductCard from "@/components/ProductCard";
 import { products, promos } from "@/data/products";
-import type { Product } from "@/components/ProductCard";
+import type { Product } from "@/data/products";
 
 interface PromoPageProps {
   onAddToCart: (p: Product) => void;

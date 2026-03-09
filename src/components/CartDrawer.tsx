@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
-import type { Product } from "@/components/ProductCard";
+import type { Product } from "@/data/products";
 
 interface CartItem extends Product {
   qty: number;
